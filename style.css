@@ -122,6 +122,7 @@ body {
     color: var(--primary);
     font-weight: bold;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 footer {

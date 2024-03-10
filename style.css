@@ -1,0 +1,193 @@
+:root {
+    --text-nav: 16px;
+    --text-large: 42px;
+    --text-md: 18px;
+    --primary: #0f172a;
+    --secondary: #334155;
+    --hover: #475569;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: var(--text-md);
+    color: var(--primary);
+}
+
+.navbar-nav {
+    font-weight: 400;
+    font-size: var(--text-nav);
+    color: var(--secondary);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.hero {
+    margin: 80px 0;
+}
+
+.greetings {
+    font-size: var(--text-md);
+    font-weight: 400;
+    color: var(--secondary);
+}
+
+.banner {
+    font-size: var(--text-large);
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.btn {
+    background-color: var(--secondary);
+    border-radius: 100px;
+    color: white;
+    font-weight: 500;
+    transition: all ease-in-out 300ms;
+}
+
+.btn:hover {
+    background: var(--hover);
+    color: white;
+}
+
+.oishii {
+    font-weight: bold;
+    color: var(--primary);
+}
+
+.about {
+    margin: 50px;
+    font-weight: bold;
+    color: var(--primary);
+    font-size: var(--text-large);
+}
+
+.about-image {
+    border-radius: 0 100px 0 100px;
+}
+
+.about-text {
+    font-weight: 400;
+    color: var(--secondary);
+    text-align: justify;
+    margin-top: 30px;
+}
+
+.menu {
+    margin: 50px;
+    font-weight: bold;
+    color: var(--primary);
+    font-size: var(--text-large);
+}
+
+.menu__header {
+    font-weight: bold;
+    font-size: var(--text-md);
+    color: var(--primary);
+}
+
+.menu__text {
+    font-weight: 400;
+    font-size: var(--text-nav);
+}
+
+.menu__harga {
+    font-weight: 500;
+    color: var(--primary);
+    font-size: var(--text-nav);
+}
+
+.star__text {
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+.star {
+    color: #fbbf24;
+    font-size: var(--text-md);
+}
+
+.contact {
+    margin-bottom: 50px;
+}
+
+.contact__title {
+    font-size: var(--text-large);
+    color: var(--primary);
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+footer {
+    padding: 15px;
+    background-color: var(--primary);
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.text__footer {
+    margin-top: 30px;
+}
+
+.text__footer h5 {
+    color: #e2e8f0;
+}
+
+.text__footer p {
+    color: #cbd5e1;
+}
+
+@media (min-width: 992px) {
+    .link {
+        margin-right: 50px;
+    }
+    .image {
+        padding-left: 75px;
+    }
+    .grid {
+        margin-top: 60px;
+    }
+
+    .hero {
+        margin: 0;
+    }
+
+    .about {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        color: var(--primary);
+        font-size: var(--text-large);
+    }
+
+    .menu {
+        margin-top: 80px;
+        margin-bottom: 40px;
+        font-weight: bold;
+        color: var(--primary);
+        font-size: var(--text-large);
+    }
+
+    .contact__title {
+        font-size: var(--text-large);
+        color: var(--primary);
+        font-weight: bold;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .contact {
+        margin-bottom: 80px;
+    }
+
+    footer {
+        font-size: var(--text-nav);
+    }
+}
